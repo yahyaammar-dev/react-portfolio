@@ -43,11 +43,11 @@ footer a{
     border-color: var(--color-bg);
 }
 
-.footer__copuright{
+.footer__copyright{
     margin-bottom: 4rem;
     color: var(--color-bg);
+    text-align: center;
 }
-
 
 
 
@@ -55,6 +55,11 @@ footer a{
    .permalinks{
         flex-direction: column;
         gap: 1.5rem;
+        justify-content: center;
+   }
+   .permalinks li{
+        display: flex;
+        justify-content: center;
    }
    .footer__socials{
         margin-bottom: 2.6rem;
